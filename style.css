@@ -52,14 +52,28 @@ main {
     padding: 15px;
 }
 
-/* portfolio styles */
-#interests {
-    border: 4px rgb(124, 178, 85) ridge;
-    padding: 8px;
-}
-h2, h3 {
-    margin: 0px;
-}
-<div id="all-contents">
-   <div class="sidebar"></div>
-</div>
+         /* portfolio styles */
+         .content h1 {
+          color: rgb(248, 255, 248);
+      }
+
+      #portfolio {
+          list-style-type: none;
+          padding-left: 0;
+      }
+
+      #portfolio li {
+          background: #fff;
+          padding: 10px;
+          border-radius: 10px;
+          margin-bottom: 10px;
+      }
+
+      #portfolio li:hover {
+          background: #56ab6a;
+      }
+
+      #portfolio a {
+          text-decoration: none;
+          color: #9faca1;
+      }
