@@ -1,55 +1,46 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-    <head>
-      <title> Chad's First Website `e</title>
-    </head>
+  <head>
+    <title>Chad's First Website `e</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-    <body>
-
-    </body>
-   <div id="all-contents">
-
-   </div>
-
-   
-    <main>
+  <body>
+    <div id="all-contents">
+      <nav>
+        <h1>Chad First Website</h1>
+        <ul id="nav-ul">
+          <li class="nav-li">
+            <a href="index.html"> Home </a>
+          </li>
+          <li  class="nav-li">
+            <a href="portfolio.html"> Portfolio </a>
+          </li>
+        </ul>
+      </nav>
+      <main>
         <!-- Sidebar section -->
-      <div> 
-         <img src="data:image/png;base64,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"
-      </div>
-        <div>
-  <h2> Chad Bailey </h2>
-  <p> Student at The International Higschool of New Orleans </p>
+        <div class="sidebar">
+          <img
+          class="sidebar-img"
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMwAAADACAMAAAB/Pny7AAAA3lBMVEUCU6T////MKzH///0ARaDq7/MAQ6Jyj8B9mcDrzMw6ZKrRTFC8ydfLICgAT6Xl6/J7lsNdfbjO2OQAR5wAUKPKAABTe7S5yNoAN5kAS6O0xNz89vYBVaIrYqtQe7DnwL3OHiT27OzKAAy+AADW4ejqvb7///dUcq/t9vbdn6GetM/QcncAL5hMbKxlh7xdf7KVrtAxXKsAOaMAJJnPaW3ZlIvF0+bXi5Hu3+DTkpHKChjOVFooZKN+nr/MXGGnvdLINT3PeYLlsLC6P0bJWVUAVJjNfXsAAI8AOo4zWrF883y4AAALAElEQVR4nO2da3PiOhKGLWTMLRYJCGzHJsGBgAOEy042cciFTM6ZOXv+/x9atWUwAWPY/XDSqvI7VQQ7nio/UavVurU0LVeuXLly5cqVK1euXLly5cqV6/+Ud8pDXDx30oPfKM4dxjk7Ks4coe9+2yx5msM798Pp+SmaDe8XjH33Kx8U51q1ZBXJqerPZwuOFIc5i3KfnoxCKCXUmmkoabhzf0nhFVMl39+VEPGd6Me8ipHGuepH71fsP1r7atRFObiVW6FrqUroR2hnVf27X31P+kUd/tjFy6ln2P+yv+pHdRUMCBlUHnqtWDfL2r8rvqAfPHaQeTXP6fTpgNLGlW5wTzQgfPuffhWQ2NSezMJa3WXhKYS7lsf4dwNsi+srIuxo5aX+kfU+iSsNdZ+7axizYC5fKuJmMMJlaHqpKP70q3RHy15JDAOfDxsaKJ1aRdystzEZGucNYS+NqpNqLsbbtke+bRW2ad7BDVyK/4gmtoGCGdApTzd9e3UYpmA+iQKrXyEyNHslDOhskWpkHp9swVDyuQMDhhbMbY6jZDjnTbCy83Sf5LFhYxvm97LwVc/i7mPzn37rg3LuRXsZDNNrMf/Vp0mQQ/2C+ZWl+yBuN141LN7ZmdZF2HifDiN82RbMrpUJmJeQkPoMTaXRzwXMY/VAyXjZMFBpSL2EBsYoi7j/7FDEqG+bGamoDeO0yRbM043SMIxvYCgJd32ZYjD6VQITPigOY5Q3kZn7sGtkCsF4wsbYxJIwwg3c7tZ+ZWA4d3SddV5LQQxDwo+ukjBcb3rVi4v5aGUVaWxmlf0KowCMp+md0nxlNfqbXgyolmJkCsAY96s62dPdy9JUD0YfPg7I1gjTpvW/+9inQQ7jdBrrUbHdwrle7rkAzDCij6Vb+xQbU6vttjSYYWQjeQBG3K6Mu6Y6MNzrHyqWSOGd2VUFxrNHhBwePocy+zRNRWDYop4FI2m6isDYo8O1f11x3KelEjBMqx+DgXpjKgFjnBezjCyW+3OpAAy3LXoCzPZIAF4Yp5Nd/dfyk8YGL4w9Pw4S2dnLEjkMP9pgJjA/scMwzXgLTptudpMRJ6QwDuf9E/wygQm0ux5yGBb9zEBIQN1klBYrjN5I6cJ80edP6ezwwxjRxGYGSmX8YfoS5g57nZlkdMqiYqmZXbMS1xnkJbN4rWe2l25BuGPzM4Ih18hh2DzIKJn4/c2xvAwxmxklVjR9ngHzHvViavLSr5l4YQi5bGdbmX8jZzN9aXPjLmqYUfayubX/qkiY5yVqGCvIhCnIojDvpNVtJgRwwswzS2bdgzHf4+seZpizambE/L6uIx+urEK1LmYY55ESuVoxhcVPupZhZGabUBMnzN+zRgDhTCpM1GJKyUpDwj+6iGE6bFG9/3uU7gaov7Gzl/jObQ8xTJVx7vwYHWprkjGMMLY82XXGCgNDgIf8MyXruRnzZ3xHdgOQwnDNmB9sa5KFZua6aELcZtbMWnHut9ZF8zu+8W7iheHstZ4VnW3s7CPqoVE5qoEUhumlzCAg6V0+SZg7zDAZVQZUScIxGtWiKD5DCsPtyywWQpLe5V1ChxSGGWfZMC9xu7ls/RFdh2arixZGb2QPNMlRjG7rpSKDTeJe15ZIYbh+ZKQ5hACmG3XP4qVBUDg4YZjRyIahXVM0mf6X3nX45wdOmMlZlpmJ3427JgycbT9FrwsoYfgR10zIc6t7tzvq4T+jhGHO1ZGtgC83H/sFFqCE4ZrdyJ4DvGs9pf8CHwyL5pqzVOlV1IHR7EznTGnPVwjGeMt2ATWVYI4UDXlSCsbI7gV8qlRnPG2S1dmk4fPemodosg0pjD4tZkzS+LX9e9SlOGE0qDUZE5tuYdfOKAlRNppyJSAsbDhcNn9+DQHEk+H4FiuMp7Ffh0c1KBn3xjs29ow0apZX+vmqf7C1eW4tx2TLCfh3PaT9GXnlGfaPt3RLi0YCb2rh5kb40ELa04xhYMPlgbZTTjmLfvO177quXxn3lmjHAJI7eukATCUeBugVPgqt1hLx6Exyh01SxzYo8XvrHbTrxc34YTRWTXfQ7t4+DQVgNHue7qCfbxSE4XY/tdcZ9hSE0ZqvqUGaO75RD8YDQ0stmqVCW04S2emjtTtFowiMo6V21MKuijCeMU2N0X7eKAijeZPRYH+NA/2681wVGE2bpM3YJGvN1IJhzbRl29ctNfbP7KrJ95wABGhKwojWZlrcGZChxH3pqggjJGh2Lc3dTqShFIwHZbNDs53kQCkYjdmlnSiNhsrCiOamvEPjb8VnqsFodunrVjR/ywMoBqOBF/iygtv9rcLWxsOPtLfHa7a2z6gH44lnIOPB2kdTJfZpZkjXLpPddaHiMJ6jz/tRwlnwAB8KbDrNkMc8++oxkKbmPiHfDHRCRlydz+NUNElyIGVhNGbMpBOgn6i3nJwEo3EnXvnkvqPe2LAF8yUnpifzMMbZGJ1p3A+oLJHDiPfmQlEuYMgOEOVul8944ru44LwzkDs51jko0cJo3Ot0Oh5j8EODD7hsQhpHDl8XHYdfUbl0du2dkcKI8mD3o8vLuea0Ly8tTXyARvMO454xir4bvB21NHQzfIYURpSM3oYuf9Uui0+tvO6+WE3RxkROLLC1Rf/r7mbsMCXjXNQKDdIcBWfw7lcO90hUUzzOylQGzjdqwFgChgAMofXFTMCMdB2cmIjNZg7XGrDEZNOlwQ4TOAnMZCLKY2QYI/FdtP5zQ+MXkTNDvYN2AyOs6OKcEmlm/QimrMOCR0u0l9ZE+GxI3+jfqAADnne1hiH1BRTSL2YElM4tQvoTj2lDmnhm3DBQNYrlIDYzclYn9bLOOuL7dERIUfc0vhD9NH+sRp2xKFkFcclA7zIoG85MwHTmouJDa6SNIFeDGq55WiSQfyKCCUZn4qM9gSToE3DYpaYombOtnjNymGo/Sm4o64wjGkli/QXrA4dzwTCyRcmstno0yGE6UbZ5CdO3Ifd88BdMofVh8KxhizhtWE+SnKGGoeQ+amwkTNGGtHrBfzYjs3WA+bu/3nGGFMbalEzbjg48kWb244doYYqQtP1xPi8OSCAia4DZBGfoYM4jGB7DXEysTckE57AaYPQmrst6szEgIk7T2AKsLkRpZp4uU+mvS2aoz9w1DC2KgIxyGACc6jpAvomAphoNOMuOs4kslb4zrMeHHDhQZ66YDokBvbJMQBs0yhNY4tThEKDRlXBnwyhulpWm+y7I+69oDjviHmw1KQkzY51Sqdzhzel56VyrlktwBlhpqDvissw9ZyjuzASzXFpXkR4AdqA+YjmvAVYvQCZAKzoYpOk0oe40HVE1miA4m40zpyn60pw3dQfGCOZR/yyEUYDoYBC6MtAc2eLppfqAkjbPPBCDJ19WEgZizWjXdn1q/AOveaKYBtmAHtPPbNkTX1ibAecuLKWll000VUaTCY5EeHnaCWxR1AwwBdP8uCWofBmIOxbsAFh5+gk1GUpGTtIsa9ewl3bURHKUTiwHoksSNKa64Rw76IuzEpiZ/956CCFUaCzw+DIpvQ0p2mnx7K2t6XozQ7rQSPTOnn5XfBixeTxwcM03ikfH6cG2y3q/cVSiR+AiPk4PRjOt9ZTlsfyTdPOj+NbB5MgSsUXp7EBCoFSiAQ1GQzRnNe2K8c5s3jiyv3mtoG6VhwuO9XRQDXC86v3FxeziuIb3neiAQ6wlA4I5Gcc5eqBudJwuZo7/Vagayly5cuXKlStXrly5cuXKlSuXMvovkZ8pdxbju7EAAAAASUVORK5CYII="
+          />
         </div>
-  
+
         <!-- Content section -->
         <div class="content">
-  
+          <h2>Chad Bailey</h2>
+          <p>Student at The International Higschool of New Orleans</p>
+          <div id="interests">
+            <h3>Interests</h3>
+            <ul>
+              <li>Basketball</li>
+              <li>Video Games</li>
+              <li>Fishing</li>
+            </ul>
+          </div>
         </div>
-    </main>
-  
-        <h3>Interests</h3>
-        <ul>
-            <li>Basketball </li>
-            <li>Video Games </li>
-            <li> Fishing</li>
-        </ul>
+      </main>
     </div>
-
-</div>
-<nav></nav>
-    <h1>Chad First Website </h1>
-    <head>
-      <link rel="stylesheet" href="style.css">
-  </head>
-    <ul>
-        <li>
-          <a href="index.html"> Home </a>
-        </li>
-        <li>
-          <a href="portfolio.html"> Portfolio </a>
-        </li>
-    </ul>
-</nav>
-
+  </body>
 </html>
